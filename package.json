@@ -1,0 +1,49 @@
+{
+  "name": "react-essential",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrjoshi92/React.git"
+  },
+  "author": "Ravi Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rrjoshi92/React/issues"
+  },
+  "homepage": "https://github.com/rrjoshi92/React#readme",
+  "babel": {
+    "presets": [
+      "latest",
+      "react",
+      "stage-0"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-cli": "^6.23.0",
+    "babel-loader": "^6.3.2",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "bootstrap-loader": "^2.0.0",
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.28.0",
+    "jquery": "^3.2.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-icons": "^2.2.3",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
